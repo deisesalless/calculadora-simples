@@ -13,10 +13,10 @@ public class Calculator {
 		double number2 = input.nextDouble();
 		
 		MathOperations calculator = new MathOperations ();
-		calculator.plus(number1, number2);
-		calculator.minus(number1, number2);
-		calculator.times(number1, number2);
-		calculator.dividedBy(number1, number2);
+		calculator.add(number1, number2);
+		calculator.subtract(number1, number2);
+		calculator.multiply(number1, number2);
+		calculator.divide(number1, number2);
 		
 		input.close();
 		
